@@ -49,4 +49,10 @@ yarn.lock
 # (Will allow empty folders to be committed)
 assets/*
 !assets/README.md
+!assets/homepage.png
+!assets/*.png
+!assets/*.jpg
+!assets/*.jpeg
+!assets/*.webp
+!assets/*.ico
 
