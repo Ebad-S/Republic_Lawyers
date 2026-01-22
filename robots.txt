@@ -1,0 +1,25 @@
+# Republic Lawyers - robots.txt
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://republiclawyers.com.au/sitemap.xml
+
+# Disallow admin or private folders (if any in future)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl-delay (optional - uncomment if needed)
+# Crawl-delay: 10
+

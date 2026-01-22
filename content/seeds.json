@@ -1,0 +1,136 @@
+{
+  "llmo": {
+    "description": "This file contains content seeds for LLM-based content generation and optimization. These snippets can be used by AI tools to generate alternate phrasings, answer queries, and create SEO-optimized content.",
+    "snippets": {
+      "bioShort": "Javid Ahmadi — Principal lawyer. Practical, direct legal advice across family, criminal and commercial law.",
+      "bioLong": "Javid Ahmadi is the principal lawyer at Republic Lawyers, providing practical and outcome-focused legal representation across Family Law, Criminal Law, Wills & Estates, Business Law, Commercial Contracts, and Dispute Resolution. With offices in Sydney CBD and service areas throughout Parramatta and Sutherland Shire, Javid delivers clear, direct legal advice tailored to each client's unique circumstances.",
+      "valueProposition": "Practical legal solutions:\nclear, direct, effective. Experienced Sydney lawyers offering personalised representation with transparent pricing and no-obligation case reviews.",
+      "urgentContact": "For urgent legal matters, call 0424 623 052. For general inquiries, call (02) 8626 5171 or request a free case review through our website.",
+      "officeLocations": "Sydney CBD office at Suite 1307, 109 Pitt St, Sydney NSW 2000. Mail correspondence to Parramatta office at 57 Macquarie St, Parramatta NSW 2150. We service clients throughout Sydney, Parramatta, and Sutherland Shire.",
+      "faqSeeds": [
+        {
+          "question": "What to bring to a free review?",
+          "answer": "Brief timeline, ID, and key documents (e.g., court orders, contracts)."
+        },
+        {
+          "question": "How much will it cost?",
+          "answer": "We provide an upfront estimate after the initial review."
+        },
+        {
+          "question": "Do you offer payment plans?",
+          "answer": "Yes, payment arrangements are available for most matters. We discuss options during your initial consultation."
+        },
+        {
+          "question": "How quickly can I get an appointment?",
+          "answer": "We typically offer appointments within 24–48 hours. Urgent matters can be accommodated same-day."
+        },
+        {
+          "question": "Do you offer video consultations?",
+          "answer": "Yes, video and phone consultations are available for clients who cannot visit our office in person."
+        }
+      ]
+    },
+    "serviceSummaries": {
+      "familyLaw": {
+        "short": "Separation, parenting & property settlements. Clear advice, calm guidance.",
+        "medium": "Expert family law advice covering separation, divorce, parenting arrangements, property settlements, child support, and domestic violence orders. We protect your rights and your family's best interests through negotiation, mediation, or court representation.",
+        "long": "Republic Lawyers provides comprehensive family law services for individuals and families navigating separation, divorce, and parenting disputes. Our approach combines legal expertise with empathy, ensuring your rights are protected while minimizing conflict and cost. Services include property settlements, parenting orders, child support arrangements, spousal maintenance, de facto relationship matters, and Apprehended Domestic Violence Orders (ADVOs). We prioritize out-of-court settlements through negotiation and mediation, proceeding to Family Court only when necessary. Our goal is to achieve fair outcomes efficiently while preserving relationships and protecting children's wellbeing.",
+        "intent": "informational, transactional"
+      },
+      "criminalLaw": {
+        "short": "Bail, charges, representation in court. Tough, strategic defence.",
+        "medium": "Experienced criminal defence for all charges including assault, drug offences, traffic matters, fraud, and theft. Urgent bail applications, strategic court representation, and protecting your rights throughout the criminal justice process.",
+        "long": "Republic Lawyers offers robust criminal defence representation across all NSW courts. We handle bail applications urgently, defend against assault and violence charges, drug offences (possession, supply, cultivation), drink driving and traffic offences, fraud and white-collar crime, theft and property offences, and all summary and indictable matters. Our approach combines strategic legal defence with practical advice about likely outcomes, plea negotiations, and sentencing options. We protect your rights from police interview through to final hearing, exploring every avenue to minimize penalties and avoid criminal records where possible. Available 24/7 for urgent bail matters.",
+        "intent": "transactional"
+      },
+      "willsEstates": {
+        "short": "Wills, probate and estate planning — protect your family.",
+        "medium": "Comprehensive wills preparation, estate planning, probate applications, powers of attorney, and estate dispute resolution. Fixed-fee packages available for straightforward matters.",
+        "long": "Republic Lawyers provides expert estate planning and administration services to protect your family and ensure your wishes are respected. Services include will preparation and updates, testamentary trusts for asset protection and tax minimization, enduring powers of attorney for financial and health decisions, probate and letters of administration applications, deceased estate administration, estate disputes and family provision claims, and succession planning for businesses. We offer fixed-fee will packages for individuals and couples, with transparent pricing for more complex estate planning. Our approach ensures your assets are distributed according to your wishes, minimizes tax implications, and provides peace of mind for you and your family.",
+        "intent": "informational, transactional"
+      },
+      "businessLaw": {
+        "short": "Contracts, disputes, commercial advice for SMEs.",
+        "medium": "Business structure advice, company incorporation, commercial contracts, business sales and purchases, employment law, intellectual property, and business dispute resolution for small and medium enterprises.",
+        "long": "Republic Lawyers delivers practical commercial legal advice tailored for small and medium-sized businesses. Our business law services cover entity structure selection and incorporation, shareholder and partnership agreements, commercial contract drafting and review, business purchase and sale transactions with due diligence, employment contracts and workplace policies, intellectual property protection including trademark registration, franchise and distribution agreements, business dispute resolution, and compliance advice. We understand the commercial realities of running a business and provide cost-effective legal solutions that protect your interests without unnecessary complexity. Fixed-fee arrangements available for recurring legal work.",
+        "intent": "informational, transactional"
+      },
+      "commercialContracts": {
+        "short": "Drafting & negotiation to reduce business risk.",
+        "medium": "Expert contract drafting, review, and negotiation. Terms and conditions, supplier agreements, service contracts, NDAs, and IP agreements. Fixed-fee reviews available.",
+        "long": "Republic Lawyers specializes in commercial contract services to protect your business interests and minimize legal risk. We draft custom agreements tailored to your business needs, review proposed contracts to identify unfavorable terms and risks, negotiate better commercial terms on your behalf, create website terms and conditions, prepare supplier and distribution agreements, draft professional services and consulting contracts, and develop confidentiality agreements and intellectual property assignments. Our contract review process involves understanding your commercial objectives, identifying legal and business risks, and providing practical recommendations on what to negotiate and what to accept. We offer fixed-fee reviews for standard contracts and can create template agreements for recurring business relationships.",
+        "intent": "transactional"
+      },
+      "disputeResolution": {
+        "short": "Mediation and negotiation to avoid costly litigation.",
+        "medium": "Cost-effective dispute resolution through mediation, negotiation, and strategic settlement. Commercial disputes, contract breaches, partnership conflicts, debt recovery, and property disputes.",
+        "long": "Republic Lawyers resolves business and commercial disputes efficiently through alternative dispute resolution methods and, when necessary, litigation. Our services include commercial mediation and facilitated negotiation, contract dispute resolution, partnership and shareholder disputes, debt recovery and enforcement, property and lease disputes, and representation in NSW courts and tribunals. We prioritize cost-effective resolution through negotiation and mediation, which typically costs 50-80% less than litigation and resolves disputes in weeks or months rather than years. When court action is unavoidable, we provide strong advocacy to protect your interests. Our approach balances assertive representation with commercial pragmatism to achieve the best possible outcome efficiently.",
+        "intent": "transactional"
+      }
+    },
+    "contentHints": [
+      "Provide 15–40 word answers for FAQs.",
+      "Provide 40–120 word service summaries for LLM consumption.",
+      "Tag each content block with intent: {informational, transactional, navigational}",
+      "Use direct, benefit-focused language that emphasizes outcomes over process.",
+      "Highlight free case reviews, fixed-fee options, and transparent pricing.",
+      "Emphasize accessibility: video consultations, 24/7 urgent contact, quick appointments.",
+      "Focus on practical advice and real-world outcomes, not legal jargon.",
+      "Include geographic keywords: Sydney, Parramatta, Sutherland Shire, Sydney CBD, NSW.",
+      "Mention specific practice areas: family law, criminal law, wills & estates, business law, commercial contracts, dispute resolution.",
+      "Use conversational tone appropriate for legal services: professional but approachable."
+    ],
+    "keyPhrases": [
+      "family lawyer Sydney",
+      "criminal lawyer Sydney",
+      "wills and estates Parramatta",
+      "business lawyer Sutherland",
+      "divorce lawyer Sydney",
+      "bail lawyer Sydney",
+      "contract lawyer Sydney",
+      "dispute resolution lawyer",
+      "commercial lawyer Sydney",
+      "estate planning lawyer",
+      "free case review",
+      "no win no fee",
+      "experienced Sydney lawyers",
+      "practical legal advice",
+      "affordable legal services"
+    ],
+    "localSEO": {
+      "primaryServiceArea": "Sydney CBD, NSW",
+      "secondaryServiceAreas": [
+        "Parramatta, NSW",
+        "Sutherland Shire, NSW",
+        "Greater Sydney, NSW"
+      ],
+      "nearbyLandmarks": [
+        "Sydney CBD",
+        "Pitt Street Mall",
+        "Circular Quay",
+        "Parramatta Court",
+        "Sutherland Shire Council"
+      ]
+    },
+    "structuredDataTemplates": {
+      "localBusiness": {
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "name": "Republic Lawyers Pty Ltd",
+        "description": "Experienced Sydney lawyers offering Family Law, Criminal Law, Wills & Estates, Business Law and Dispute Resolution.",
+        "founder": "Javid Ahmadi",
+        "telephone": "+61286265171",
+        "email": "info@republiclawyers.com.au",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Suite 1307, 109 Pitt St",
+          "addressLocality": "Sydney",
+          "addressRegion": "NSW",
+          "postalCode": "2000",
+          "addressCountry": "AU"
+        }
+      }
+    }
+  }
+}
+
