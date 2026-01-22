@@ -2,7 +2,7 @@
 
 A modern, accessible, and SEO & LLMO optimized website for Republic Lawyers, built with static HTML, CSS, and vanilla JavaScript.
 
-![Homepage Screenshot](assets/homepage.png)
+![Homepage Screenshot](./assets/homepage.png)
 
 
 ## 🚀 Features
