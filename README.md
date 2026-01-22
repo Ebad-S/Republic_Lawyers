@@ -1,6 +1,9 @@
-# Republic Lawyers — Website
+# Republic Lawyers Website
 
 A modern, accessible, and SEO & LLMO optimized website for Republic Lawyers, built with static HTML, CSS, and vanilla JavaScript.
+
+![Homepage Screenshot](assets/homepage.png)
+
 
 ## 🚀 Features
 
@@ -11,56 +14,6 @@ A modern, accessible, and SEO & LLMO optimized website for Republic Lawyers, bui
 - **Performance Focused**: Pure HTML/CSS/JS with minimal dependencies, fast load times
 - **Animation**: Smooth scroll-reveal animations and micro-interactions
 - **Contact Forms**: Ready for backend integration
-
-## 📁 Project Structure
-
-```
-.
-├── index.html                 # Homepage
-├── contact.html              # Contact page
-├── services/                 # Service pages
-│   ├── family-law.html
-│   ├── criminal-law.html
-│   ├── wills-estates.html
-│   ├── business-law.html
-│   ├── commercial-contracts.html
-│   └── dispute-resolution.html
-├── styles/
-│   └── main.css             # Main stylesheet
-├── scripts/
-│   └── main.js              # JavaScript functionality
-├── components/              # Reusable HTML components (reference only)
-│   ├── header.html
-│   ├── footer.html
-│   └── service-card.html
-├── assets/                  # Images and media files
-│   ├── javid-portrait.webp # Hero image (TO ADD)
-│   ├── og-default.jpg      # Open Graph image (TO ADD)
-│   └── favicon.ico         # Favicon (TO ADD)
-├── content/
-│   └── seeds.json          # LLMO content seeds for AI tools
-├── sitemap.xml             # XML sitemap
-├── robots.txt              # Robots.txt
-└── README.md               # This file
-```
-
-## 🎨 Design System
-
-### Colors
-- **Primary**: Navy blue (#1a365d) - Authority and trust
-- **Accent**: Bright blue (#3182ce) - Call-to-action elements
-- **Text**: Dark gray (#1a202c)
-- **Background**: White (#ffffff) and light gray (#f7fafc)
-
-### Typography
-- **Body**: 18px, system font stack (San Francisco, Segoe UI, Roboto)
-- **Line Height**: 1.6 for readability
-- **Headings**: Bold, responsive sizing with clamp()
-
-### Breakpoints
-- Mobile: < 768px
-- Tablet: 768px - 1024px
-- Desktop: > 1024px
 
 ## 🛠️ Development
 
@@ -87,6 +40,24 @@ python -m http.server 8000
 npm install -g http-server
 http-server -p 8000
 ```
+
+## 🎨 Design System
+
+### Colors
+- **Primary**: Navy blue (#1a365d) - Authority and trust
+- **Accent**: Bright blue (#3182ce) - Call-to-action elements
+- **Text**: Dark gray (#1a202c)
+- **Background**: White (#ffffff) and light gray (#f7fafc)
+
+### Typography
+- **Body**: 18px, system font stack (San Francisco, Segoe UI, Roboto)
+- **Line Height**: 1.6 for readability
+- **Headings**: Bold, responsive sizing with clamp()
+
+### Breakpoints
+- Mobile: < 768px
+- Tablet: 768px - 1024px
+- Desktop: > 1024px
 
 ### Making Changes
 
@@ -217,6 +188,38 @@ Optimization tips:
 - CSS: Already minified for production
 - JS: < 10KB gzipped, loaded at end of body
 - Fonts: Using system fonts (zero download)
+
+## 📁 Project Structure
+
+```
+.
+├── index.html                 # Homepage
+├── contact.html              # Contact page
+├── services/                 # Service pages
+│   ├── family-law.html
+│   ├── criminal-law.html
+│   ├── wills-estates.html
+│   ├── business-law.html
+│   ├── commercial-contracts.html
+│   └── dispute-resolution.html
+├── styles/
+│   └── main.css             # Main stylesheet
+├── scripts/
+│   └── main.js              # JavaScript functionality
+├── components/              # Reusable HTML components (reference only)
+│   ├── header.html
+│   ├── footer.html
+│   └── service-card.html
+├── assets/                  # Images and media files
+│   ├── javid-portrait.webp # Hero image (TO ADD)
+│   ├── og-default.jpg      # Open Graph image (TO ADD)
+│   └── favicon.ico         # Favicon (TO ADD)
+├── content/
+│   └── seeds.json          # LLMO content seeds for AI tools
+├── sitemap.xml             # XML sitemap
+├── robots.txt              # Robots.txt
+└── README.md               # This file
+```
 
 ## 📞 Support
 
